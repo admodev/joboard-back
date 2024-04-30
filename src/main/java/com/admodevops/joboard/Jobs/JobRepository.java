@@ -55,7 +55,6 @@ public class JobRepository implements IJobRepository {
         return 0;
     }
 
-    @Override
     public Job findByJobId(int jobId) {
         return null;
     }
@@ -65,7 +64,6 @@ public class JobRepository implements IJobRepository {
         return null;
     }
 
-    @Override
     public void updateById(int jobId) {
     }
 

@@ -9,8 +9,8 @@ import java.util.List;
 @Repository
 public interface IJobRepository extends CrudRepository<Job, Long>, JpaSpecificationExecutor<Job> {
     List<Job> findAll();
-    Job findByJobId(int jobId);
+
     Job save(Job job);
-    void updateById(int jobID);
+
     void deleteById(Long id);
 }
